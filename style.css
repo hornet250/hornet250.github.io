@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body{
+    background-color: #eeeeee;
+}
+
+p{
+    font-size: 15px;
+    line-height: 150%
+}
+
+h1{
+    color:#000000;
+}
+
+/*コンテンツ(本文)*/
+.content{
+    width: 720px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+}
+
+/*タイトル("hornet250"部分)*/
+.title{
+    color:black;
+    background-color: #0a941e;
+    font-size:40px;
+    text-align: center;
+    margin: 10px;
+    padding: 45px;
+}
+
+/*トップメニュー(表形式)*/
+.top_menu {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+/*トップメニューの表の体裁*/
+.top_menu table{
+    table-layout: fixed;
+    width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    border-collapse:  collapse;
+    background: orange;
+    font-size:18px;
+}
+
+/*トップメニューの表の行列の体裁*/
+.top_menu th,td {
+    border: solid 2px;
+    margin: 10px;
+    padding: 5px;
+}
+
+/*ヘッダ部分*/
+.header{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+
+/*ヘッダ部分の埋め込み*/
+.header iframe{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+    padding: 0;
+    text-align: center;
+    border: 0px;
+}
+
+/*カテゴリ(記事リスト部分)*/
+.article_list {
+    text-align: center;
+}
+
+/*記事リストの表部分の体裁*/
+.article_list table{
+    table-layout: fixed;
+    width: 720px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    border-collapse:  collapse;
+    //background: white;
+    font-size:16px;
+}
+
+/*記事リストの表部分の行列の体裁*/
+.article_list th, td{
+    border: solid 1px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/*フッタ部分*/
+.footer{
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+    font-size:18px;
+}
+
+/*フッタ部分の埋め込み*/
+.footer iframe{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 200px;
+    padding: 0;
+    text-align: center;
+    border: 0px;
+}
