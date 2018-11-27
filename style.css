@@ -28,14 +28,18 @@ h1{
     font-size:40px;
     text-align: center;
     margin: 10px;
+    /*
     padding: 45px;
+    */
 }
 
 /*トップメニュー(表形式)*/
 .top_menu {
     text-align: center;
+    /*
     margin: 10px;
     padding: 20px;
+    */
 }
 
 /*トップメニューの表の体裁*/
@@ -66,7 +70,7 @@ h1{
     */
     position: relative;
     width: 100%;
-   padding: 30%;
+   padding: 25%;
 }
 
 /*ヘッダ部分の埋め込み*/
