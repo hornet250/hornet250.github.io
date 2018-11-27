@@ -59,20 +59,37 @@ h1{
 
 /*ヘッダ部分*/
 .header{
+    /*
     text-align: center;
     margin: 10px;
     padding: 20px;
+    */
+    position: relative;
+    width: 100%;
+   padding: 20% 0 0 0;
+}
+
+/*iframeの枠なし*/
+iframe {
+    border: 0px;
 }
 
 /*ヘッダ部分の埋め込み*/
 .header iframe{
+    /*
     display: block;
     margin: 0 auto;
     width: 100%;
-    height: 300px;
+    height: 250px;
     padding: 0;
     text-align: center;
     border: 0px;
+    */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*カテゴリ(記事リスト部分)*/
