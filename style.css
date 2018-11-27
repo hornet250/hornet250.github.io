@@ -15,7 +15,7 @@ h1{
 
 /*コンテンツ(本文)*/
 .content{
-    width: 720px;
+    width: 75%;
     margin-left:auto;
     margin-right:auto;
     text-align: left;
@@ -27,14 +27,15 @@ h1{
     background-color: #0a941e;
     font-size:40px;
     text-align: center;
-    margin: 10px;
     /*
+    margin: 10px;
     padding: 45px;
     */
 }
 
 /*トップメニュー(表形式)*/
 .top_menu {
+    width: 100%;
     text-align: center;
     /*
     margin: 10px;
