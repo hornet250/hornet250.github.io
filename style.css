@@ -15,7 +15,7 @@ h1{
 
 /*コンテンツ(本文)*/
 .content{
-    width: 75%;
+    width: 65%;
     margin-left:auto;
     margin-right:auto;
     text-align: left;
@@ -27,32 +27,36 @@ h1{
     background-color: #0a941e;
     font-size:40px;
     text-align: center;
-    /*
     margin: 10px;
     padding: 45px;
-    */
+}
+
+.header{
+    margin: 10px;
+    padding: 5px;
 }
 
 /*トップメニュー(表形式)*/
 .top_menu {
     width: 100%;
     text-align: center;
+    margin: 20px;
     /*
-    margin: 10px;
-    padding: 20px;
+    padding: 10px;
     */
 }
 
 /*トップメニューの表の体裁*/
 .top_menu table{
     table-layout: fixed;
-    width: 75%;
+    width: 80%;
     margin-left:auto;
     margin-right:auto;
     text-align: center;
     border-collapse:  collapse;
     background: orange;
     font-size:18px;
+
 }
 
 /*トップメニューの表の行列の体裁*/
@@ -62,38 +66,6 @@ h1{
     padding: 5px;
 }
 
-/*ヘッダ部分*/
-.header{
-    /*
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    */
-    position: relative;
-    width: 100%;
-   padding: 25%;
-}
-
-/*ヘッダ部分の埋め込み*/
-.header iframe{
-    /*
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: 250px;
-    padding: 0;
-    text-align: center;
-    border: 0px;
-    */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0px;
-
-}
-
 /*カテゴリ(記事リスト部分)*/
 .article_list {
     text-align: center;
@@ -101,8 +73,10 @@ h1{
 
 /*記事リストの表部分の体裁*/
 .article_list table{
+    /*
     table-layout: fixed;
-    width: 720px;
+    */
+    width: 80%;
     margin-left:auto;
     margin-right:auto;
     text-align: center;
@@ -121,18 +95,9 @@ h1{
 /*フッタ部分*/
 .footer{
     text-align: center;
-    margin: 5px;
+    margin: 20px;
+    /*
     padding: 20px;
+    */
     font-size:18px;
-}
-
-/*フッタ部分の埋め込み*/
-.footer iframe{
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: 200px;
-    padding: 0;
-    text-align: center;
-    border: 0px;
 }
