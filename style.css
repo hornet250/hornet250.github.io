@@ -89,6 +89,28 @@ h1{
     padding: 5px;
 }
 
+.top_menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.top_menu a:link {
+    color: black;
+}
+
+.top_menu a:visited {
+     color: black;
+ }
+
+.top_menu a:hover {
+     color: black;
+ }
+
+.top_menu a:active {
+     color: black;
+ }
+
+
 /*カテゴリ(記事リスト部分)*/
 .article_list {
     text-align: center;
