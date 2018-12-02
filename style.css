@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+body{
+    background-color: #eeeeee;
+}
+
+p{
+    font-size: 15px;
+    line-height: 165%
+}
+
+h1{
+    color:#000000;
+}
+
+/*コンテンツ(本文)*/
+.content{
+    width: 65%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+}
+
+.content table{
+    top_menu table{
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+        border-collapse:  collapse;
+    }
+/*
+.content img{
+    text-align: center;
+    width: auto;
+    height: 100px;
+}
+*/
+
+
+/*タイトル("hornet250"部分)*/
+.title{
+    color:black;
+    background-color: #0a941e;
+    font-size:40px;
+    text-align: center;
+    margin: 10px;
+    padding: 45px;
+}
+
+
+.title a{
+    color: black;
+    text-decoration: none;
+}
+
+.title a:link {
+    color: black;
+}
+
+.title a:visited {
+     color: black;
+ }
+
+.title a:hover {
+     color: black;
+ }
+
+.title a:active {
+     color: black;
+ }
+
+
+.header{
+    margin: 10px;
+    padding: 5px;
+}
+
+/*トップメニュー(表形式)*/
+.top_menu {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    /*
+    padding: 10px;
+    */
+}
+
+/*トップメニューの表の体裁*/
+.top_menu table{
+    table-layout: fixed;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    border-collapse:  collapse;
+    background: orange;
+    font-size:18px;
+
+}
+
+/*トップメニューの表の行列の体裁*/
+.top_menu th,td {
+    border: solid 2px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.top_menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.top_menu a:link {
+    color: black;
+}
+
+.top_menu a:visited {
+     color: black;
+ }
+
+.top_menu a:hover {
+     color: black;
+ }
+
+.top_menu a:active {
+     color: black;
+ }
+
+
+/*カテゴリ(記事リスト部分)*/
+.article_list {
+    text-align: center;
+}
+
+/*記事リストの表部分の体裁*/
+.article_list table{
+    /*
+    table-layout: fixed;
+    */
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    border-collapse:  collapse;
+    //background: white;
+    font-size:16px;
+}
+
+/*記事リストの表部分の行列の体裁*/
+.article_list th, td{
+    border: solid 1px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.article_list img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*フッタ部分*/
+.footer{
+    text-align: center;
+    margin: 20px;
+    /*
+    padding: 20px;
+    */
+    font-size:10px;
+}
