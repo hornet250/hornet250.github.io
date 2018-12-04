@@ -160,8 +160,8 @@ h1{
 
 /*記事リストの表部分の画像の体裁*/
 .article_list img{
-    max-width: 80px;
-    height: auto;
+    width: auto;
+    max-height: 80px;
 }
 
 
